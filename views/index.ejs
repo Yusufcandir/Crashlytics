@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accident Data</title>
+    <script src="https://kit.fontawesome.com/eb448298d9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Kumbh+Sans:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Kumbh Sans', sans-serif;
+        }
+        body {
+            background-color: #141414;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+            color: #f1f1f1;
+            padding: 0 10px;
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+        /* Header */
+        header {
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            width: 100%;
+            border-radius: 0 0 15px 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+        /* Navbar */
+        .navbar {
+            background: #2b2b2b;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.2rem;
+            position: sticky;
+            top: 0;
+            z-index: 999;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease;
+            width: 100%; }
+        .navbar:hover {
+            background-color: #222;
+        }
+        .navbar__container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 0 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            gap: 20px; 
+        }
+        /* Logo */
+        #navbar__logo {
+            font-size: 1.8rem; 
+            font-weight: bold;
+            background: linear-gradient(to top, #ff0844, #ff5f57);
+            color: transparent;
+            -webkit-background-clip: text;
+            cursor: pointer;
+            letter-spacing: 1px;
+            margin-right: 30px;
+        }
+        /* Navbar Links */
+        .navbar__menu {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+            flex-wrap: nowrap; 
+        }
+        .navbar__links {
+            color: #ff0000;
+            text-decoration: none;
+            padding: 10px 20px; 
+            height: 100%;
+            transition: color 0.3s ease, background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+            font-size: 1rem;
+            border-radius: 5px; 
+        }
+        .navbar__links:hover {
+            background-color: #ff5f57; 
+            color: #fff;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        /* Navbar Button */
+        .navbar__btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 0;
+            width: 100%;
+            text-align: center;
+        }
+        /* Button */
+        .button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: transparent; 
+            color: #ff0000; 
+            border: none; 
+            border-radius: 5px;
+            text-decoration: none;
+            transition: color 0.3s ease, background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+            font-weight: bold;
+            font-size: 1rem;
+            width: 100%; 
+            max-width: 200px;
+        }
+        .button:hover {
+            background-color: #ff5f57;
+            color: #fff; 
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .button:active {
+            background-color: #b12a5b;
+            transform: translateY(0);
+            box-shadow: none;
+        }
+        /* Main Section */
+        .main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .main__content {
+            max-width: 800px;
+        }
+        .main__content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .main__content p {
+            font-size: 1.1rem; 
+            margin-bottom: 30px;
+        }
+        .main__btn {
+            margin: 10px;
+        }
+        .main__image--container {
+            margin-top: 30px;
+        }
+        #main__img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Filter Section */
+        .filter-container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #2b2b2b;
+            border-radius: 12px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .filter-container select,
+        .filter-container input {
+            padding: 12px;
+            margin: 8px 0;
+            background-color: #fff;
+            color: #333;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            font-size: 14px;
+            width: 100%;
+            transition: border 0.3s ease;
+        }
+        .filter-container select:focus,
+        .filter-container input:focus {
+            border-color: #ff5f57;
+            box-shadow: 0 0 5px #ff5f57;
+        }
+        .filter-container button {
+            padding: 12px 25px;
+            background-color: #ff5f57;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .filter-container button:hover {
+            background-color: #ff0844;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transform: translateY(-2px);
+        }
+        .filter-container button:active {
+            background-color: #b12a5b;
+            transform: translateY(0);
+            box-shadow: none;
+        }
+        /* Table Section */
+        .table-container {
+            width: 100%; 
+            max-width: 100%;
+            margin: 20px auto;
+            background-color: #2b2b2b;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            overflow-x: auto;
+        }
+        table {
+            width: 100%; 
+            border-collapse: collapse;
+            background-color: #2b2b2b;
+            font-size: 16px;
+            color: #fff !important;
+        }
+        table th, table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            color: #fff !important; 
+        }
+        table th {
+            background-color: #ff5f57;
+            color: white !important;
+            font-weight: bold;
+        }
+        table tr:nth-child(even) {
+            background-color: #333;
+        }
+        table tr:nth-child(odd) {
+            background-color: #2b2b2b;
+        }
+        table tr:hover {
+            background-color: #ff5f57;
+            cursor: pointer;
+        }
+        table tr:hover td {
+            color: #fff !important;
+        }
+        /* Pagination Container */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin: 20px 0;
+        }
+
+        /* Pagination Buttons */
+        .pagination button {
+            margin: 0; 
+            padding: 10px 15px;
+            background-color: #ff5f57;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .pagination button:hover {
+            background-color: #b12a5b;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .pagination button:active {
+            background-color: #ff0844;
+            transform: translateY(0);
+            box-shadow: none;
+        }
+
+        .pagination button.active {
+            background-color: #b12a5b;
+            color: white;
+            pointer-events: none; 
+        }
+
+        .pagination button:disabled {
+            background-color: #ddd;
+            color: #aaa;
+            cursor: not-allowed;
+        }
+
+        /* Dots (Ellipsis) */
+        .pagination .dots {
+            margin: 0;
+            padding: 0 10px;
+            font-weight: bold;
+            color: #888;
+            user-select: none;
+            display: flex;
+            align-items: center;
+        }
+        /* Prediction Section */
+        .prediction-container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: #2b2b2b;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            color: white;
+        }
+        .prediction-container input {
+            padding: 12px;
+            margin: 8px 0;
+            background-color: #fff;
+            color: #333;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            font-size: 14px;
+            width: 100%;
+            transition: border 0.3s ease;
+        }
+        .prediction-container input:focus {
+            border-color: #ff5f57;
+            box-shadow: 0 0 5px #ff5f57;
+        }
+        .prediction-container button {
+            padding: 12px 25px;
+            background-color: #ff5f57;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .prediction-container button:hover {
+            background-color: #ff0844;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transform: translateY(-2px);
+        }
+        .prediction-container button:active {
+            background-color: #b12a5b;
+            transform: translateY(0);
+            box-shadow: none;
+        }
+        #prediction-result {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #b12a5f;
+            text-align: center;
+
+        }
+
+        #predicted-severity-display,
+        #road-safety-score-display {
+            font-size: 1.1rem !important; 
+            color: #ffffff !important; 
+            font-weight: bold !important; 
+        }
+
+        #predicted-severity-value,
+        #road-safety-score-value {
+            color: #ffffff !important; 
+            font-weight: bold !important;
+        }
+
+
+        /* Footer Section */
+        .footer__container {
+            background-color: #141414;
+            padding: 5rem 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #footer__logo {
+            color: #fff;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 2rem;
+        }
+        .footer__links {
+            width: 100%;
+            max-width: 1000px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap; 
+        }
+        .footer__link--wrapper {
+            display: flex;
+            flex-wrap: wrap; 
+            justify-content: center;
+        }
+        .footer__link--items {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin: 16px;
+            text-align: left;
+            width: 160px;
+            list-style: none;
+        }
+        .footer__link--items h2 {
+            margin-bottom: 16px;
+            color: #fff;
+        }
+        .footer__link--items a {
+            text-decoration: none;
+            color: #fff;
+            margin: 5px 0;
+            font-size: 14px;
+        }
+        .footer__link--items a:hover {
+            color: #ff5f57;
+        }
+        .footer__socials {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .footer__socials a {
+            font-size: 24px;
+            color: #fff; 
+            transition: color 0.3s ease;
+        }
+        .footer__socials a:hover {
+            color: #ff5f57;
+        }
+        .footer__newsletter {
+            width: 100%;
+            max-width: 600px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .footer__newsletter h2 {
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        .footer__newsletter input[type="email"] {
+            padding: 10px;
+            width: 70%;
+            border: none;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        .footer__newsletter button {
+            padding: 10px 20px;
+            background-color: #ff5f57;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .footer__newsletter button:hover {
+            background-color: #ff0844;
+        }
+        .footer__bottom {
+            margin-top: 20px;
+            color: #fff;
+            text-align: center;
+        }
+        /* Map Section */
+        #map-container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: #2b2b2b;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            color: #fff;
+        }
+        #map {
+            height: 400px;
+            width: 100%;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        #map-legend {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #333;
+            border-radius: 8px;
+            color: #fff;
+        }
+        #map-legend h4 {
+            margin-bottom: 10px;
+        }
+        #map-legend p {
+            margin: 5px 0;
+        }
+        #map-legend span {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+        }
+        .main__btn a {
+            color: #ff0000;
+        }
+        .map-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
+        #map__img {
+            max-width: 100%;
+            height: auto;
+        }
+        .navbar__toggle {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            position: absolute;
+            right: 20px;
+            top: 50%; 
+            transform: translateY(-50%);
+        }
+
+        .bar {
+            height: 3px;
+            width: 25px;
+            background-color: #fff;
+            margin: 4px 0;
+            transition: 0.4s;
+        }
+
+        .navbar__menu.active {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            position: absolute;
+            top: 80px;
+            left: 0;
+            background-color: #2b2b2b;
+            z-index: 999;
+            max-height: calc(100vh - 80px); 
+            overflow-y: auto;
+        }
+
+        .navbar__item {
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        @media screen and (max-width: 768px) {
+            .navbar__toggle {
+                display: flex;
+            }
+
+            .navbar__menu {
+                display: none;
+                flex-direction: column;
+                width: 100%;
+                position: absolute;
+                top: 80px;
+                left: 0;
+                background-color: #2b2b2b;
+                z-index: 999;
+                max-height: calc(100vh - 80px); 
+                overflow-y: auto; 
+            }
+
+            .navbar__menu.active {
+                display: flex;
+            }
+
+            .navbar__item {
+                width: 100%;
+                text-align: center;
+                padding: 10px 0;
+            }
+
+            .navbar__links {
+                padding: 10px 0;
+                font-size: 1rem;
+                color: #fff; 
+            }
+
+            .navbar__btn {
+                width: 100%;
+                text-align: center;
+                padding: 10px 0;
+            }
+
+            .navbar__btn .button {
+                width: 80%;
+                padding: 10px 0;
+                font-size: 1rem;
+            }
+        }
+    </style>
+
+
+</head>
+<body>
+    <!-- ------------------NAVBAR SECTION------------------- -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo"><i class="fa-solid fa-traffic-light"></i>Crashlytics</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span> 
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links" id="Home">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/tech.html" class="navbar__links" id="Tech">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links" id="services-page">Services</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/" class="button">Get Started</a>
+            </ul>
+        </div>
+    </nav>
+    <!-- ------------------HERO SECTION------------------- -->
+    <div class="main">
+        <div class="main container">
+            <div class="main__content">
+                <h1>NEXT GENERATION</h1>
+                <h1>TECHNOLOGY</h1>
+                <p>Crashlytics is a cutting-edge platform designed to harness the power of machine learning and data analytics to make our roads safer. Using a comprehensive dataset of over 761,000 accident records, we provide real-time predictions of accident severity and road safety scores. Our goal is to help individuals, city planners, and safety agencies proactively mitigate risks and respond effectively.</p>
+            </div>
+        </div>
+    </div>
+<!-- Filters Form -->
+<div class="filter-container">
+    <form id="filter-form">
+        <div>
+            <label for="severity">Severity:</label>
+            <select name="severity" id="severity">
+                <option value="">Select Severity</option>
+                <option value="1" <%= (filters && filters.severity === '1') ? 'selected' : '' %>>1</option>
+                <option value="2" <%= (filters && filters.severity === '2') ? 'selected' : '' %>>2</option>
+                <option value="3" <%= (filters && filters.severity === '3') ? 'selected' : '' %>>3</option>
+                <option value="4" <%= (filters && filters.severity === '4') ? 'selected' : '' %>>4</option>
+            </select>
+            <div>
+                <label for="city">City:</label>
+                <input type="text" name="city" placeholder="Enter City" value="<%= (filters && filters.city) || '' %>">
+            </div>
+            <div>
+                <label for="county">County:</label>
+                <input type="text" name="county" placeholder="Enter County" value="<%= (filters && filters.county) || '' %>">
+            </div>
+            <div>
+                <label for="state">State:</label>
+                <input type="text" name="state" placeholder="Enter State" value="<%= (filters && filters.state) || '' %>">
+            </div>
+            <div>
+                <label for="weather_condition">Weather Condition:</label>
+                <input type="text" name="weather_condition" placeholder="Enter Weather Condition" value="<%= (filters && filters.weather_condition) || '' %>">
+            </div>
+            <div>
+                <label for="visibility">Visibility:</label>
+                <input type="number" name="visibility" placeholder="Enter Visibility" value="<%= (filters && filters.visibility) || '' %>">
+            </div>
+            <div>
+                <label for="temperature">Temperature:</label>
+                <input type="number" name="temperature" placeholder="Enter Temperature" value="<%= (filters && filters.temperature) || '' %>">
+            </div>
+
+            <div>
+                <button type="submit">Apply Filters</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+<!-- Prediction Section -->
+<div class="filter-container" style="display: flex; justify-content: space-between; align-items: flex-start; gap: 20px;">
+    <div style="flex: 1;">
+        <h2>Predict Accident Severity</h2>
+        <form id="prediction-form" style="display: flex; flex-direction: column; gap: 10px;">
+            <div>
+                <label for="city_input">City:</label>
+                <input type="text" id="city_input" name="city_input" required>
+            </div>
+            <div>
+                <label for="county_input">County:</label>
+                <input type="text" id="county_input" name="county_input" required>
+            </div>
+            <div>
+                <label for="state_input">State:</label>
+                <input type="text" id="state_input" name="state_input" required>
+            </div>
+            <div>
+                <label for="time_zone">Time Zone:</label>
+                <input type="text" id="time_zone" name="time_zone" required>
+            </div>
+            <div>
+                <label for="weather_condition_input">Weather Condition:</label>
+                <input type="text" id="weather_condition_input" name="weather_condition_input" required>
+            </div>
+            <div>
+                <label for="crossing">Crossing (True/False):</label>
+                <select id="crossing" name="crossing">
+                    <option value="False" selected>False</option>
+                    <option value="True">True</option>
+                </select>
+            </div>
+            <div>
+                <label for="junction">Junction (True/False):</label>
+                <select id="junction" name="junction">
+                    <option value="False" selected>False</option>
+                    <option value="True">True</option>
+                </select>
+            </div>
+            <div>
+                <label for="traffic_signal">Traffic Signal (True/False):</label>
+                <select id="traffic_signal" name="traffic_signal">
+                    <option value="False" selected>False</option>
+                    <option value="True">True</option>
+                </select>
+            </div>
+            <div>
+                <label for="humidity">Humidity (%):</label>
+                <input type="number" id="humidity" name="humidity" min="0" max="100" required>
+            </div>
+            <div>
+                <label for="temperature_input">Temperature (F):</label>
+                <input type="number" id="temperature_input" name="temperature_input" step="0.1" required>
+            </div>
+            <div>
+                <label for="visibility_input">Visibility (mi):</label>
+                <input type="number" id="visibility_input" name="visibility_input" step="0.1" required>
+            </div>
+            <div>
+                <button type="submit">Predict</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Prediction Results Container -->
+    <div id="prediction-result-container" style="flex: 0.5; background-color: #1a1a1a; border-radius: 8px; padding: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); display: flex; flex-direction: column; gap: 10px; height: fit-content; align-self: start;">
+        <h2 style="margin-bottom: 10px; color: #fff; font-size: 1.5rem;">Predicted Results</h2>
+        <div id="predicted-severity-display" style="font-size: 1.1rem; color: #b3a7e0; font-weight: 600;">
+            Predicted Severity: <span id="predicted-severity-value" style="color:#ff5f57;">N/A</span>
+        </div>
+        <div id="road-safety-score-display" style="font-size: 1.1rem; color: #b3a7e0; font-weight: 600;">
+            Road Safety Score: <span id="road-safety-score-value" style="color:#ff5f57;">N/A</span>
+        </div>
+    </div>
+</div>
+
+
+    
+
+
+    <div class="table-container">
+        <table id="data-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Severity</th>
+                    <th>City</th>
+                    <th>County</th>
+                    <th>State</th>
+                    <th>Time Zone</th>
+                    <th>Weather Timestamp</th>
+                    <th>Temperature</th>
+                    <th>Humidity</th>
+                    <th>Visibility</th>
+                    <th>Weather Condition</th>
+                    <th>Crossing</th>
+                    <th>Junction</th>
+                    <th>Traffic Signal</th>
+                    <th>Sunrise Sunset</th>
+                
+                </tr>
+            </thead>
+            <tbody id="data-body">
+                <% if (data && data.length > 0) { %>
+                    <% data.forEach(accident => { %>
+                        <tr>
+                            <td><%= accident.id || "N/A" %></td>
+                            <td><%= accident.severity || "N/A" %></td>
+                            <td><%= accident.city || "N/A" %></td>
+                            <td><%= accident.county || "N/A" %></td>
+                            <td><%= accident.state || "N/A" %></td>
+                            <td><%= accident.time_zone || "N/A" %></td>
+                            <td><%= accident.weather_timestamp || "N/A" %></td>
+                            <td><%= accident.temperature || "N/A" %></td>
+                            <td><%= accident.humidity || "N/A" %></td>
+                            <td><%= accident.visibility || "N/A" %></td>
+                            <td><%= accident.weather_condition || "N/A" %></td>
+                            <td><%= accident.crossing || "N/A" %></td>
+                            <td><%= accident.junction || "N/A" %></td>
+                            <td><%= accident.traffic_signal || "N/A" %></td>
+                            <td><%= accident.sunrise_sunset || "N/A" %></td>
+                         
+                        </tr>
+                    <% }) %>
+                <% } else { %>
+                    <tr><td colspan="16">No data available for the selected filters. Please adjust your search criteria.</td></tr>
+                <% } %>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="pagination" id="pagination">
+        <!-- handled by script.js -->
+    </div>
+
+    <div class="pagination" id="map-pagination"></div>
+
+    
+
+
+    <!-- Map container -->
+    <div id="map-container">
+        <h2 style="text-align: center;">Accident Locations</h2>
+        <div id="map"></div>
+        <div id="map-legend">
+            <h4>Severity Legend</h4>
+            <p><span style="background-color: green;"></span> Low</p>
+            <p><span style="background-color: yellow;"></span> Moderate</p>
+            <p><span style="background-color: orange;"></span> High</p>
+            <p><span style="background-color: red;"></span> Very High</p>
+        </div>
+    </div>
+    
+
+   <!-- ------------------FOOTER SECTION------------------- -->
+   <div class="footer__container">
+    <div class="footer__links">
+        <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+                <h2>About Us</h2>
+                <a href="/">How it works</a>
+                <a href="/">Testimonials</a>
+                <a href="/">Careers</a>
+                <a href="/">Investments</a>
+                <a href="/">Terms of Service</a>
+            </div>
+            <div class="footer__link--items">
+                <h2>Contact Us</h2>
+                <a href="/">Contact</a>
+                <a href="/">Support</a>
+                <a href="/">Destinations</a>
+                <a href="/">Sponsorships</a>
+            </div>
+        </div>
+        <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+                <h2>Videos</h2>
+                <a href="/">Sumbit Video</a>
+                <a href="/">Ambassadors</a>
+                <a href="/">Agency</a>
+                <a href="/">Influencer</a>
+            </div>
+            <div class="footer__link--items">
+                <h2>Social Media</h2>
+                <a href="/">Instagram</a>
+                <a href="/">Facebook</a>
+                <a href="/">Youtube</a>
+                <a href="/">Twitter</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer__newsletter">
+        <h2>Join Our Newsletter</h2>
+        <form>
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+    <div class="footer__socials">
+        <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <div class="footer__bottom">
+        <p class="website__rights">© Crashlytics 2024. All rights reserved</p>
+    </div>
+</div>
+    
+
+    <!-- Embed filters into a script variable -->
+    <script>
+        const initialFilters = {
+            severity: "<%= filters.severity %>",
+            city: "<%= filters.city %>",
+            county: "<%= filters.county %>",
+            state: "<%= filters.state %>",
+            weather_condition: "<%= filters.weather_condition %>",
+            visibility: "<%= filters.visibility %>",
+            temperature: "<%= filters.temperature %>",
+        };
+    </script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <script src="/script.js"></script>
+</body>
+</html>
