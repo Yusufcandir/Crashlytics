@@ -1,0 +1,198 @@
+[
+  {
+      "id": 1,
+      "state": "IL"
+  },
+  {
+      "id": 2,
+      "state": "CA"
+  },
+  {
+      "id": 3,
+      "state": "VA"
+  },
+  {
+      "id": 4,
+      "state": "OH"
+  },
+  {
+      "id": 5,
+      "state": "PA"
+  },
+  {
+      "id": 6,
+      "state": "SC"
+  },
+  {
+      "id": 7,
+      "state": "NJ"
+  },
+  {
+      "id": 8,
+      "state": "NY"
+  },
+  {
+      "id": 9,
+      "state": "FL"
+  },
+  {
+      "id": 10,
+      "state": "NC"
+  },
+  {
+      "id": 11,
+      "state": "TX"
+  },
+  {
+      "id": 12,
+      "state": "AZ"
+  },
+  {
+      "id": 13,
+      "state": "TN"
+  },
+  {
+      "id": 14,
+      "state": "MA"
+  },
+  {
+      "id": 15,
+      "state": "WA"
+  },
+  {
+      "id": 16,
+      "state": "AL"
+  },
+  {
+      "id": 17,
+      "state": "KY"
+  },
+  {
+      "id": 18,
+      "state": "GA"
+  },
+  {
+      "id": 19,
+      "state": "MI"
+  },
+  {
+      "id": 20,
+      "state": "LA"
+  },
+  {
+      "id": 21,
+      "state": "IN"
+  },
+  {
+      "id": 22,
+      "state": "CT"
+  },
+  {
+      "id": 23,
+      "state": "MN"
+  },
+  {
+      "id": 24,
+      "state": "OR"
+  },
+  {
+      "id": 25,
+      "state": "CO"
+  },
+  {
+      "id": 26,
+      "state": "OK"
+  },
+  {
+      "id": 27,
+      "state": "NV"
+  },
+  {
+      "id": 28,
+      "state": "MD"
+  },
+  {
+      "id": 29,
+      "state": "UT"
+  },
+  {
+      "id": 30,
+      "state": "MO"
+  },
+  {
+      "id": 31,
+      "state": "KS"
+  },
+  {
+      "id": 32,
+      "state": "NM"
+  },
+  {
+      "id": 33,
+      "state": "AR"
+  },
+  {
+      "id": 34,
+      "state": "NH"
+  },
+  {
+      "id": 35,
+      "state": "NE"
+  },
+  {
+      "id": 36,
+      "state": "IA"
+  },
+  {
+      "id": 37,
+      "state": "WI"
+  },
+  {
+      "id": 38,
+      "state": "RI"
+  },
+  {
+      "id": 39,
+      "state": "DE"
+  },
+  {
+      "id": 40,
+      "state": "MS"
+  },
+  {
+      "id": 41,
+      "state": "ME"
+  },
+  {
+      "id": 42,
+      "state": "DC"
+  },
+  {
+      "id": 43,
+      "state": "VT"
+  },
+  {
+      "id": 44,
+      "state": "WV"
+  },
+  {
+      "id": 45,
+      "state": "WY"
+  },
+  {
+      "id": 46,
+      "state": "ID"
+  },
+  {
+      "id": 47,
+      "state": "ND"
+  },
+  {
+      "id": 48,
+      "state": "MT"
+  },
+  {
+      "id": 49,
+      "state": "SD"
+  }
+]

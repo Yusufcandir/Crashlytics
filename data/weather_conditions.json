@@ -1,0 +1,389 @@
+{
+  "1": {
+    "weather_condition": "Fair"
+  },
+  "2": {
+    "weather_condition": "Mostly Cloudy"
+  },
+  "3": {
+    "weather_condition": "Partly Cloudy"
+  },
+  "4": {
+    "weather_condition": "Cloudy"
+  },
+  "5": {
+    "weather_condition": "N/A"
+  },
+  "6": {
+    "weather_condition": "Fog"
+  },
+  "7": {
+    "weather_condition": "Haze"
+  },
+  "8": {
+    "weather_condition": "Light Rain"
+  },
+  "9": {
+    "weather_condition": "Thunder in the Vicinity"
+  },
+  "10": {
+    "weather_condition": "Rain"
+  },
+  "11": {
+    "weather_condition": "Heavy Rain"
+  },
+  "12": {
+    "weather_condition": "Heavy Rain / Windy"
+  },
+  "13": {
+    "weather_condition": "Fair / Windy"
+  },
+  "14": {
+    "weather_condition": "Light Rain with Thunder"
+  },
+  "15": {
+    "weather_condition": "Smoke"
+  },
+  "16": {
+    "weather_condition": "Thunder"
+  },
+  "17": {
+    "weather_condition": "Shallow Fog"
+  },
+  "18": {
+    "weather_condition": "Patches of Fog"
+  },
+  "19": {
+    "weather_condition": "Light Drizzle"
+  },
+  "20": {
+    "weather_condition": "Showers in the Vicinity"
+  },
+  "21": {
+    "weather_condition": "T-Storm"
+  },
+  "22": {
+    "weather_condition": "Thunder / Windy"
+  },
+  "23": {
+    "weather_condition": "Heavy T-Storm / Windy"
+  },
+  "24": {
+    "weather_condition": "Heavy T-Storm"
+  },
+  "25": {
+    "weather_condition": "Drizzle"
+  },
+  "26": {
+    "weather_condition": "Light Rain / Windy"
+  },
+  "27": {
+    "weather_condition": "Mist"
+  },
+  "28": {
+    "weather_condition": "Mostly Cloudy / Windy"
+  },
+  "29": {
+    "weather_condition": "N/A Precipitation"
+  },
+  "30": {
+    "weather_condition": "Light Rain Shower"
+  },
+  "31": {
+    "weather_condition": "Partly Cloudy / Windy"
+  },
+  "32": {
+    "weather_condition": "Cloudy / Windy"
+  },
+  "33": {
+    "weather_condition": "Drizzle and Fog"
+  },
+  "34": {
+    "weather_condition": "T-Storm / Windy"
+  },
+  "35": {
+    "weather_condition": "Rain / Windy"
+  },
+  "36": {
+    "weather_condition": "Blowing Dust"
+  },
+  "37": {
+    "weather_condition": "Heavy Drizzle"
+  },
+  "38": {
+    "weather_condition": "Smoke / Windy"
+  },
+  "39": {
+    "weather_condition": "Haze / Windy"
+  },
+  "40": {
+    "weather_condition": "Tornado"
+  },
+  "41": {
+    "weather_condition": "Light Snow"
+  },
+  "42": {
+    "weather_condition": "Snow"
+  },
+  "43": {
+    "weather_condition": "Light Drizzle / Windy"
+  },
+  "44": {
+    "weather_condition": "Blowing Dust / Windy"
+  },
+  "45": {
+    "weather_condition": "Widespread Dust / Windy"
+  },
+  "46": {
+    "weather_condition": "Wintry Mix"
+  },
+  "47": {
+    "weather_condition": "Light Snow / Windy"
+  },
+  "48": {
+    "weather_condition": "Wintry Mix / Windy"
+  },
+  "49": {
+    "weather_condition": "Light Snow with Thunder"
+  },
+  "50": {
+    "weather_condition": "Fog / Windy"
+  },
+  "51": {
+    "weather_condition": "Snow and Thunder"
+  },
+  "52": {
+    "weather_condition": "Heavy Snow"
+  },
+  "53": {
+    "weather_condition": "Light Snow Shower"
+  },
+  "54": {
+    "weather_condition": "Sleet"
+  },
+  "55": {
+    "weather_condition": "Light Snow and Sleet"
+  },
+  "56": {
+    "weather_condition": "Snow / Windy"
+  },
+  "57": {
+    "weather_condition": "Rain Shower"
+  },
+  "58": {
+    "weather_condition": "Light Freezing Rain"
+  },
+  "59": {
+    "weather_condition": "Snow and Sleet"
+  },
+  "60": {
+    "weather_condition": "Light Sleet"
+  },
+  "61": {
+    "weather_condition": "Light Freezing Drizzle"
+  },
+  "62": {
+    "weather_condition": "Heavy Snow / Windy"
+  },
+  "63": {
+    "weather_condition": "Freezing Drizzle"
+  },
+  "64": {
+    "weather_condition": "Light Freezing Rain / Windy"
+  },
+  "65": {
+    "weather_condition": "Thunder / Wintry Mix"
+  },
+  "66": {
+    "weather_condition": "Blowing Snow / Windy"
+  },
+  "67": {
+    "weather_condition": "Freezing Rain"
+  },
+  "68": {
+    "weather_condition": "Light Snow and Sleet / Windy"
+  },
+  "69": {
+    "weather_condition": "Snow and Sleet / Windy"
+  },
+  "70": {
+    "weather_condition": "Sleet / Windy"
+  },
+  "71": {
+    "weather_condition": "Heavy Freezing Rain / Windy"
+  },
+  "72": {
+    "weather_condition": "Heavy Freezing Rain"
+  },
+  "73": {
+    "weather_condition": "Blowing Snow"
+  },
+  "74": {
+    "weather_condition": "Widespread Dust"
+  },
+  "75": {
+    "weather_condition": "Squalls / Windy"
+  },
+  "76": {
+    "weather_condition": "Light Rain Shower / Windy"
+  },
+  "77": {
+    "weather_condition": "Snow and Thunder / Windy"
+  },
+  "78": {
+    "weather_condition": "Light Sleet / Windy"
+  },
+  "79": {
+    "weather_condition": "Sand / Dust Whirlwinds"
+  },
+  "80": {
+    "weather_condition": "Mist / Windy"
+  },
+  "81": {
+    "weather_condition": "Drizzle / Windy"
+  },
+  "82": {
+    "weather_condition": "Duststorm"
+  },
+  "83": {
+    "weather_condition": "Sand / Dust Whirls Nearby"
+  },
+  "84": {
+    "weather_condition": "Thunder and Hail"
+  },
+  "85": {
+    "weather_condition": "Small Hail"
+  },
+  "86": {
+    "weather_condition": "Heavy Sleet"
+  },
+  "87": {
+    "weather_condition": "Freezing Rain / Windy"
+  },
+  "88": {
+    "weather_condition": "Light Snow Shower / Windy"
+  },
+  "89": {
+    "weather_condition": "Partial Fog"
+  },
+  "90": {
+    "weather_condition": "Thunder / Wintry Mix / Windy"
+  },
+  "91": {
+    "weather_condition": "Squalls"
+  },
+  "92": {
+    "weather_condition": "Patches of Fog / Windy"
+  },
+  "93": {
+    "weather_condition": "Rain and Sleet"
+  },
+  "94": {
+    "weather_condition": "Funnel Cloud"
+  },
+  "95": {
+    "weather_condition": "Light Snow Grains"
+  },
+  "96": {
+    "weather_condition": "Partial Fog / Windy"
+  },
+  "97": {
+    "weather_condition": "Sand / Dust Whirlwinds / Windy"
+  },
+  "98": {
+    "weather_condition": "Heavy Snow with Thunder"
+  },
+  "99": {
+    "weather_condition": "Clear"
+  },
+  "100": {
+    "weather_condition": "Overcast"
+  },
+  "101": {
+    "weather_condition": "Light Ice Pellets"
+  },
+  "102": {
+    "weather_condition": "Scattered Clouds"
+  },
+  "103": {
+    "weather_condition": "Light Thunderstorms and Rain"
+  },
+  "104": {
+    "weather_condition": "Heavy Thunderstorms and Rain"
+  },
+  "105": {
+    "weather_condition": "Thunderstorms and Rain"
+  },
+  "106": {
+    "weather_condition": "Light Freezing Fog"
+  },
+  "107": {
+    "weather_condition": "Rain Showers"
+  },
+  "108": {
+    "weather_condition": "Thunderstorm"
+  },
+  "109": {
+    "weather_condition": "Light Thunderstorms and Snow"
+  },
+  "110": {
+    "weather_condition": "Light Snow Showers"
+  },
+  "111": {
+    "weather_condition": "Heavy Blowing Snow"
+  },
+  "112": {
+    "weather_condition": "Light Rain Showers"
+  },
+  "113": {
+    "weather_condition": "Ice Pellets"
+  },
+  "114": {
+    "weather_condition": "Low Drifting Snow"
+  },
+  "115": {
+    "weather_condition": "Rain Shower / Windy"
+  },
+  "116": {
+    "weather_condition": "Hail"
+  },
+  "117": {
+    "weather_condition": "Sleet and Thunder"
+  },
+  "118": {
+    "weather_condition": "Heavy Freezing Drizzle"
+  },
+  "119": {
+    "weather_condition": "Drifting Snow / Windy"
+  },
+  "120": {
+    "weather_condition": "Shallow Fog / Windy"
+  },
+  "121": {
+    "weather_condition": "Thunder and Hail / Windy"
+  },
+  "122": {
+    "weather_condition": "Heavy Sleet and Thunder"
+  },
+  "123": {
+    "weather_condition": "Heavy Sleet / Windy"
+  },
+  "124": {
+    "weather_condition": "Sand / Windy"
+  },
+  "125": {
+    "weather_condition": "Heavy Rain Shower / Windy"
+  },
+  "126": {
+    "weather_condition": "Snow Grains"
+  },
+  "127": {
+    "weather_condition": "Blowing Sand"
+  },
+  "128": {
+    "weather_condition": "Heavy Rain Shower"
+  },
+  "129": {
+    "weather_condition": "Drifting Snow"
+  }
+}

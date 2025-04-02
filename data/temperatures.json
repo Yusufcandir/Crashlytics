@@ -1,0 +1,2123 @@
+{
+  "1": {
+    "temperature": "58.0"
+  },
+  "2": {
+    "temperature": "86.0"
+  },
+  "3": {
+    "temperature": "68.0"
+  },
+  "4": {
+    "temperature": "62.0"
+  },
+  "5": {
+    "temperature": "63.0"
+  },
+  "6": {
+    "temperature": "65.0"
+  },
+  "7": {
+    "temperature": "53.0"
+  },
+  "8": {
+    "temperature": "70.0"
+  },
+  "9": {
+    "temperature": "66.0"
+  },
+  "10": {
+    "temperature": "64.0"
+  },
+  "11": {
+    "temperature": "61.0"
+  },
+  "12": {
+    "temperature": "57.0"
+  },
+  "13": {
+    "temperature": "80.0"
+  },
+  "14": {
+    "temperature": "78.0"
+  },
+  "15": {
+    "temperature": "73.0"
+  },
+  "16": {
+    "temperature": "69.0"
+  },
+  "17": {
+    "temperature": "76.0"
+  },
+  "18": {
+    "temperature": "77.0"
+  },
+  "19": {
+    "temperature": "59.0"
+  },
+  "20": {
+    "temperature": "71.0"
+  },
+  "21": {
+    "temperature": "72.0"
+  },
+  "22": {
+    "temperature": "96.0"
+  },
+  "23": {
+    "temperature": "83.0"
+  },
+  "24": {
+    "temperature": "74.0"
+  },
+  "25": {
+    "temperature": "54.0"
+  },
+  "26": {
+    "temperature": "75.0"
+  },
+  "27": {
+    "temperature": " "
+  },
+  "28": {
+    "temperature": "60.0"
+  },
+  "29": {
+    "temperature": "52.0"
+  },
+  "30": {
+    "temperature": "79.0"
+  },
+  "31": {
+    "temperature": "82.0"
+  },
+  "32": {
+    "temperature": "56.0"
+  },
+  "33": {
+    "temperature": "88.0"
+  },
+  "34": {
+    "temperature": "84.0"
+  },
+  "35": {
+    "temperature": "81.0"
+  },
+  "36": {
+    "temperature": "100.0"
+  },
+  "37": {
+    "temperature": "92.0"
+  },
+  "38": {
+    "temperature": "85.0"
+  },
+  "39": {
+    "temperature": "91.0"
+  },
+  "40": {
+    "temperature": "87.0"
+  },
+  "41": {
+    "temperature": "90.0"
+  },
+  "42": {
+    "temperature": "97.0"
+  },
+  "43": {
+    "temperature": "93.0"
+  },
+  "44": {
+    "temperature": "89.0"
+  },
+  "45": {
+    "temperature": "55.0"
+  },
+  "46": {
+    "temperature": "46.0"
+  },
+  "47": {
+    "temperature": "104.0"
+  },
+  "48": {
+    "temperature": "67.0"
+  },
+  "49": {
+    "temperature": "49.0"
+  },
+  "50": {
+    "temperature": "51.0"
+  },
+  "51": {
+    "temperature": "41.0"
+  },
+  "52": {
+    "temperature": "111.0"
+  },
+  "53": {
+    "temperature": "108.0"
+  },
+  "54": {
+    "temperature": "102.0"
+  },
+  "55": {
+    "temperature": "107.0"
+  },
+  "56": {
+    "temperature": "109.0"
+  },
+  "57": {
+    "temperature": "105.0"
+  },
+  "58": {
+    "temperature": "95.0"
+  },
+  "59": {
+    "temperature": "103.0"
+  },
+  "60": {
+    "temperature": "106.0"
+  },
+  "61": {
+    "temperature": "98.0"
+  },
+  "62": {
+    "temperature": "101.0"
+  },
+  "63": {
+    "temperature": "94.0"
+  },
+  "64": {
+    "temperature": "110.0"
+  },
+  "65": {
+    "temperature": "99.0"
+  },
+  "66": {
+    "temperature": "-35.0"
+  },
+  "67": {
+    "temperature": "50.0"
+  },
+  "68": {
+    "temperature": "112.0"
+  },
+  "69": {
+    "temperature": "114.0"
+  },
+  "70": {
+    "temperature": "113.0"
+  },
+  "71": {
+    "temperature": "47.0"
+  },
+  "72": {
+    "temperature": "48.0"
+  },
+  "73": {
+    "temperature": "32.0"
+  },
+  "74": {
+    "temperature": "42.0"
+  },
+  "75": {
+    "temperature": "39.0"
+  },
+  "76": {
+    "temperature": "115.0"
+  },
+  "77": {
+    "temperature": "37.0"
+  },
+  "78": {
+    "temperature": "43.0"
+  },
+  "79": {
+    "temperature": "40.0"
+  },
+  "80": {
+    "temperature": "45.0"
+  },
+  "81": {
+    "temperature": "44.0"
+  },
+  "82": {
+    "temperature": "34.0"
+  },
+  "83": {
+    "temperature": "30.0"
+  },
+  "84": {
+    "temperature": "38.0"
+  },
+  "85": {
+    "temperature": "27.0"
+  },
+  "86": {
+    "temperature": "33.0"
+  },
+  "87": {
+    "temperature": "36.0"
+  },
+  "88": {
+    "temperature": "28.0"
+  },
+  "89": {
+    "temperature": "20.0"
+  },
+  "90": {
+    "temperature": "18.0"
+  },
+  "91": {
+    "temperature": "31.0"
+  },
+  "92": {
+    "temperature": "35.0"
+  },
+  "93": {
+    "temperature": "23.0"
+  },
+  "94": {
+    "temperature": "21.0"
+  },
+  "95": {
+    "temperature": "29.0"
+  },
+  "96": {
+    "temperature": "24.0"
+  },
+  "97": {
+    "temperature": "25.0"
+  },
+  "98": {
+    "temperature": "26.0"
+  },
+  "99": {
+    "temperature": "22.0"
+  },
+  "100": {
+    "temperature": "10.0"
+  },
+  "101": {
+    "temperature": "16.0"
+  },
+  "102": {
+    "temperature": "19.0"
+  },
+  "103": {
+    "temperature": "14.0"
+  },
+  "104": {
+    "temperature": "13.0"
+  },
+  "105": {
+    "temperature": "9.0"
+  },
+  "106": {
+    "temperature": "7.0"
+  },
+  "107": {
+    "temperature": "11.0"
+  },
+  "108": {
+    "temperature": "12.0"
+  },
+  "109": {
+    "temperature": "15.0"
+  },
+  "110": {
+    "temperature": "17.0"
+  },
+  "111": {
+    "temperature": "3.0"
+  },
+  "112": {
+    "temperature": "5.0"
+  },
+  "113": {
+    "temperature": "8.0"
+  },
+  "114": {
+    "temperature": "6.0"
+  },
+  "115": {
+    "temperature": "4.0"
+  },
+  "116": {
+    "temperature": "2.0"
+  },
+  "117": {
+    "temperature": "1.0"
+  },
+  "118": {
+    "temperature": "0.0"
+  },
+  "119": {
+    "temperature": "-5.0"
+  },
+  "120": {
+    "temperature": "-2.0"
+  },
+  "121": {
+    "temperature": "-4.0"
+  },
+  "122": {
+    "temperature": "-10.0"
+  },
+  "123": {
+    "temperature": "-1.0"
+  },
+  "124": {
+    "temperature": "-37.0"
+  },
+  "125": {
+    "temperature": "-3.0"
+  },
+  "126": {
+    "temperature": "-6.0"
+  },
+  "127": {
+    "temperature": "-8.0"
+  },
+  "128": {
+    "temperature": "-9.0"
+  },
+  "129": {
+    "temperature": "-17.0"
+  },
+  "130": {
+    "temperature": "-11.0"
+  },
+  "131": {
+    "temperature": "-24.0"
+  },
+  "132": {
+    "temperature": "-13.0"
+  },
+  "133": {
+    "temperature": "-7.0"
+  },
+  "134": {
+    "temperature": "-12.0"
+  },
+  "135": {
+    "temperature": "-16.0"
+  },
+  "136": {
+    "temperature": "-15.0"
+  },
+  "137": {
+    "temperature": "-14.0"
+  },
+  "138": {
+    "temperature": "-23.0"
+  },
+  "139": {
+    "temperature": "-18.0"
+  },
+  "140": {
+    "temperature": "196.0"
+  },
+  "141": {
+    "temperature": "117.0"
+  },
+  "142": {
+    "temperature": "116.0"
+  },
+  "143": {
+    "temperature": "136.0"
+  },
+  "144": {
+    "temperature": "-19.0"
+  },
+  "145": {
+    "temperature": "-26.0"
+  },
+  "146": {
+    "temperature": "-21.0"
+  },
+  "147": {
+    "temperature": "-25.0"
+  },
+  "148": {
+    "temperature": "-20.0"
+  },
+  "149": {
+    "temperature": "-22.0"
+  },
+  "150": {
+    "temperature": "-36.0"
+  },
+  "151": {
+    "temperature": "120.0"
+  },
+  "152": {
+    "temperature": "189.0"
+  },
+  "153": {
+    "temperature": "174.0"
+  },
+  "154": {
+    "temperature": "203.0"
+  },
+  "155": {
+    "temperature": "127.0"
+  },
+  "156": {
+    "temperature": "123.0"
+  },
+  "157": {
+    "temperature": "119.0"
+  },
+  "158": {
+    "temperature": "122.0"
+  },
+  "159": {
+    "temperature": "-89.0"
+  },
+  "160": {
+    "temperature": "-33.0"
+  },
+  "161": {
+    "temperature": "26.6"
+  },
+  "162": {
+    "temperature": "33.8"
+  },
+  "163": {
+    "temperature": "51.1"
+  },
+  "164": {
+    "temperature": "66.2"
+  },
+  "165": {
+    "temperature": "64.9"
+  },
+  "166": {
+    "temperature": "69.1"
+  },
+  "167": {
+    "temperature": "71.6"
+  },
+  "168": {
+    "temperature": "26.1"
+  },
+  "169": {
+    "temperature": "24.1"
+  },
+  "170": {
+    "temperature": "21.9"
+  },
+  "171": {
+    "temperature": "33.1"
+  },
+  "172": {
+    "temperature": "39.9"
+  },
+  "173": {
+    "temperature": "17.1"
+  },
+  "174": {
+    "temperature": "27.5"
+  },
+  "175": {
+    "temperature": "27.1"
+  },
+  "176": {
+    "temperature": "15.1"
+  },
+  "177": {
+    "temperature": "28.9"
+  },
+  "178": {
+    "temperature": "24.8"
+  },
+  "179": {
+    "temperature": "37.9"
+  },
+  "180": {
+    "temperature": "34.2"
+  },
+  "181": {
+    "temperature": "35.1"
+  },
+  "182": {
+    "temperature": "35.6"
+  },
+  "183": {
+    "temperature": "42.1"
+  },
+  "184": {
+    "temperature": "32.2"
+  },
+  "185": {
+    "temperature": "30.2"
+  },
+  "186": {
+    "temperature": "28.4"
+  },
+  "187": {
+    "temperature": "37.4"
+  },
+  "188": {
+    "temperature": "39.2"
+  },
+  "189": {
+    "temperature": "31.3"
+  },
+  "190": {
+    "temperature": "28.2"
+  },
+  "191": {
+    "temperature": "30.9"
+  },
+  "192": {
+    "temperature": "30.7"
+  },
+  "193": {
+    "temperature": "48.9"
+  },
+  "194": {
+    "temperature": "46.9"
+  },
+  "195": {
+    "temperature": "44.1"
+  },
+  "196": {
+    "temperature": "41.5"
+  },
+  "197": {
+    "temperature": "44.4"
+  },
+  "198": {
+    "temperature": "47.5"
+  },
+  "199": {
+    "temperature": "82.9"
+  },
+  "200": {
+    "temperature": "80.1"
+  },
+  "201": {
+    "temperature": "84.9"
+  },
+  "202": {
+    "temperature": "78.8"
+  },
+  "203": {
+    "temperature": "80.6"
+  },
+  "204": {
+    "temperature": "71.1"
+  },
+  "205": {
+    "temperature": "75.9"
+  },
+  "206": {
+    "temperature": "75.2"
+  },
+  "207": {
+    "temperature": "55.9"
+  },
+  "208": {
+    "temperature": "57.2"
+  },
+  "209": {
+    "temperature": "58.5"
+  },
+  "210": {
+    "temperature": "62.1"
+  },
+  "211": {
+    "temperature": "60.1"
+  },
+  "212": {
+    "temperature": "57.9"
+  },
+  "213": {
+    "temperature": "55.4"
+  },
+  "214": {
+    "temperature": "53.1"
+  },
+  "215": {
+    "temperature": "78.1"
+  },
+  "216": {
+    "temperature": "68.9"
+  },
+  "217": {
+    "temperature": "64.4"
+  },
+  "218": {
+    "temperature": "66.9"
+  },
+  "219": {
+    "temperature": "-7.1"
+  },
+  "220": {
+    "temperature": "-11.9"
+  },
+  "221": {
+    "temperature": "-2.9"
+  },
+  "222": {
+    "temperature": "-0.9"
+  },
+  "223": {
+    "temperature": "-0.4"
+  },
+  "224": {
+    "temperature": "-14.1"
+  },
+  "225": {
+    "temperature": "-9.9"
+  },
+  "226": {
+    "temperature": "-5.8"
+  },
+  "227": {
+    "temperature": "8.1"
+  },
+  "228": {
+    "temperature": "22.1"
+  },
+  "229": {
+    "temperature": "6.1"
+  },
+  "230": {
+    "temperature": "10.9"
+  },
+  "231": {
+    "temperature": "53.6"
+  },
+  "232": {
+    "temperature": "47.3"
+  },
+  "233": {
+    "temperature": "21.7"
+  },
+  "234": {
+    "temperature": "44.6"
+  },
+  "235": {
+    "temperature": "16.2"
+  },
+  "236": {
+    "temperature": "29.8"
+  },
+  "237": {
+    "temperature": "42.6"
+  },
+  "238": {
+    "temperature": "39.6"
+  },
+  "239": {
+    "temperature": "38.3"
+  },
+  "240": {
+    "temperature": "36.5"
+  },
+  "241": {
+    "temperature": "42.8"
+  },
+  "242": {
+    "temperature": "65.7"
+  },
+  "243": {
+    "temperature": "36.7"
+  },
+  "244": {
+    "temperature": "48.2"
+  },
+  "245": {
+    "temperature": "1.9"
+  },
+  "246": {
+    "temperature": "6.8"
+  },
+  "247": {
+    "temperature": "-0.8"
+  },
+  "248": {
+    "temperature": "-5.1"
+  },
+  "249": {
+    "temperature": "3.2"
+  },
+  "250": {
+    "temperature": "3.9"
+  },
+  "251": {
+    "temperature": "1.4"
+  },
+  "252": {
+    "temperature": "69.8"
+  },
+  "253": {
+    "temperature": "51.8"
+  },
+  "254": {
+    "temperature": "46.6"
+  },
+  "255": {
+    "temperature": "46.4"
+  },
+  "256": {
+    "temperature": "60.8"
+  },
+  "257": {
+    "temperature": "58.3"
+  },
+  "258": {
+    "temperature": "51.4"
+  },
+  "259": {
+    "temperature": "54.3"
+  },
+  "260": {
+    "temperature": "56.3"
+  },
+  "261": {
+    "temperature": "52.9"
+  },
+  "262": {
+    "temperature": "62.6"
+  },
+  "263": {
+    "temperature": "50.2"
+  },
+  "264": {
+    "temperature": "9.3"
+  },
+  "265": {
+    "temperature": "8.4"
+  },
+  "266": {
+    "temperature": "11.1"
+  },
+  "267": {
+    "temperature": "12.9"
+  },
+  "268": {
+    "temperature": "13.6"
+  },
+  "269": {
+    "temperature": "15.4"
+  },
+  "270": {
+    "temperature": "29.1"
+  },
+  "271": {
+    "temperature": "19.9"
+  },
+  "272": {
+    "temperature": "32.4"
+  },
+  "273": {
+    "temperature": "32.9"
+  },
+  "274": {
+    "temperature": "33.3"
+  },
+  "275": {
+    "temperature": "35.2"
+  },
+  "276": {
+    "temperature": "12.2"
+  },
+  "277": {
+    "temperature": "10.4"
+  },
+  "278": {
+    "temperature": "38.8"
+  },
+  "279": {
+    "temperature": "23.5"
+  },
+  "280": {
+    "temperature": "34.7"
+  },
+  "281": {
+    "temperature": "35.8"
+  },
+  "282": {
+    "temperature": "19.4"
+  },
+  "283": {
+    "temperature": "8.6"
+  },
+  "284": {
+    "temperature": "12.4"
+  },
+  "285": {
+    "temperature": "13.5"
+  },
+  "286": {
+    "temperature": "13.1"
+  },
+  "287": {
+    "temperature": "41.2"
+  },
+  "288": {
+    "temperature": "41.9"
+  },
+  "289": {
+    "temperature": "27.3"
+  },
+  "290": {
+    "temperature": "40.1"
+  },
+  "291": {
+    "temperature": "48.4"
+  },
+  "292": {
+    "temperature": "87.1"
+  },
+  "293": {
+    "temperature": "89.1"
+  },
+  "294": {
+    "temperature": "74.8"
+  },
+  "295": {
+    "temperature": "77.2"
+  },
+  "296": {
+    "temperature": "84.2"
+  },
+  "297": {
+    "temperature": "82.4"
+  },
+  "298": {
+    "temperature": "85.8"
+  },
+  "299": {
+    "temperature": "73.9"
+  },
+  "300": {
+    "temperature": "84.4"
+  },
+  "301": {
+    "temperature": "35.4"
+  },
+  "302": {
+    "temperature": "46.8"
+  },
+  "303": {
+    "temperature": "44.8"
+  },
+  "304": {
+    "temperature": "55.8"
+  },
+  "305": {
+    "temperature": "-10.3"
+  },
+  "306": {
+    "temperature": "-9.4"
+  },
+  "307": {
+    "temperature": "-8.1"
+  },
+  "308": {
+    "temperature": "-1.7"
+  },
+  "309": {
+    "temperature": "6.3"
+  },
+  "310": {
+    "temperature": "-11.2"
+  },
+  "311": {
+    "temperature": "-2.2"
+  },
+  "312": {
+    "temperature": "-2.4"
+  },
+  "313": {
+    "temperature": "-2.6"
+  },
+  "314": {
+    "temperature": "0.9"
+  },
+  "315": {
+    "temperature": "1.2"
+  },
+  "316": {
+    "temperature": "2.3"
+  },
+  "317": {
+    "temperature": "11.3"
+  },
+  "318": {
+    "temperature": "15.6"
+  },
+  "319": {
+    "temperature": "15.8"
+  },
+  "320": {
+    "temperature": "15.3"
+  },
+  "321": {
+    "temperature": "-13.2"
+  },
+  "322": {
+    "temperature": "-7.6"
+  },
+  "323": {
+    "temperature": "-16.2"
+  },
+  "324": {
+    "temperature": "-0.0"
+  },
+  "325": {
+    "temperature": "5.4"
+  },
+  "326": {
+    "temperature": "4.6"
+  },
+  "327": {
+    "temperature": "0.1"
+  },
+  "328": {
+    "temperature": "31.8"
+  },
+  "329": {
+    "temperature": "32.5"
+  },
+  "330": {
+    "temperature": "40.6"
+  },
+  "331": {
+    "temperature": "29.3"
+  },
+  "332": {
+    "temperature": "18.7"
+  },
+  "333": {
+    "temperature": "21.2"
+  },
+  "334": {
+    "temperature": "20.1"
+  },
+  "335": {
+    "temperature": "30.6"
+  },
+  "336": {
+    "temperature": "38.5"
+  },
+  "337": {
+    "temperature": "43.2"
+  },
+  "338": {
+    "temperature": "43.5"
+  },
+  "339": {
+    "temperature": "41.4"
+  },
+  "340": {
+    "temperature": "29.7"
+  },
+  "341": {
+    "temperature": "36.3"
+  },
+  "342": {
+    "temperature": "6.6"
+  },
+  "343": {
+    "temperature": "17.6"
+  },
+  "344": {
+    "temperature": "17.8"
+  },
+  "345": {
+    "temperature": "-3.5"
+  },
+  "346": {
+    "temperature": "-4.5"
+  },
+  "347": {
+    "temperature": "54.1"
+  },
+  "348": {
+    "temperature": "60.6"
+  },
+  "349": {
+    "temperature": "67.3"
+  },
+  "350": {
+    "temperature": "70.5"
+  },
+  "351": {
+    "temperature": "72.7"
+  },
+  "352": {
+    "temperature": "73.4"
+  },
+  "353": {
+    "temperature": "49.5"
+  },
+  "354": {
+    "temperature": "52.3"
+  },
+  "355": {
+    "temperature": "18.9"
+  },
+  "356": {
+    "temperature": "49.1"
+  },
+  "357": {
+    "temperature": "49.3"
+  },
+  "358": {
+    "temperature": "45.5"
+  },
+  "359": {
+    "temperature": "9.5"
+  },
+  "360": {
+    "temperature": "14.9"
+  },
+  "361": {
+    "temperature": "22.8"
+  },
+  "362": {
+    "temperature": "24.6"
+  },
+  "363": {
+    "temperature": "25.7"
+  },
+  "364": {
+    "temperature": "25.5"
+  },
+  "365": {
+    "temperature": "23.9"
+  },
+  "366": {
+    "temperature": "24.3"
+  },
+  "367": {
+    "temperature": "25.2"
+  },
+  "368": {
+    "temperature": "25.3"
+  },
+  "369": {
+    "temperature": "27.7"
+  },
+  "370": {
+    "temperature": "34.3"
+  },
+  "371": {
+    "temperature": "11.7"
+  },
+  "372": {
+    "temperature": "14.5"
+  },
+  "373": {
+    "temperature": "11.8"
+  },
+  "374": {
+    "temperature": "36.1"
+  },
+  "375": {
+    "temperature": "34.9"
+  },
+  "376": {
+    "temperature": "47.1"
+  },
+  "377": {
+    "temperature": "40.3"
+  },
+  "378": {
+    "temperature": "42.3"
+  },
+  "379": {
+    "temperature": "66.7"
+  },
+  "380": {
+    "temperature": "62.2"
+  },
+  "381": {
+    "temperature": "56.8"
+  },
+  "382": {
+    "temperature": "26.4"
+  },
+  "383": {
+    "temperature": "37.6"
+  },
+  "384": {
+    "temperature": "46.2"
+  },
+  "385": {
+    "temperature": "42.4"
+  },
+  "386": {
+    "temperature": "52.7"
+  },
+  "387": {
+    "temperature": "2.8"
+  },
+  "388": {
+    "temperature": "2.5"
+  },
+  "389": {
+    "temperature": "4.3"
+  },
+  "390": {
+    "temperature": "5.7"
+  },
+  "391": {
+    "temperature": "14.2"
+  },
+  "392": {
+    "temperature": "18.5"
+  },
+  "393": {
+    "temperature": "20.8"
+  },
+  "394": {
+    "temperature": "21.6"
+  },
+  "395": {
+    "temperature": "20.5"
+  },
+  "396": {
+    "temperature": "4.1"
+  },
+  "397": {
+    "temperature": "40.5"
+  },
+  "398": {
+    "temperature": "31.1"
+  },
+  "399": {
+    "temperature": "23.4"
+  },
+  "400": {
+    "temperature": "23.7"
+  },
+  "401": {
+    "temperature": "33.4"
+  },
+  "402": {
+    "temperature": "49.6"
+  },
+  "403": {
+    "temperature": "43.7"
+  },
+  "404": {
+    "temperature": "7.9"
+  },
+  "405": {
+    "temperature": "17.4"
+  },
+  "406": {
+    "temperature": "28.8"
+  },
+  "407": {
+    "temperature": "47.7"
+  },
+  "408": {
+    "temperature": "77.4"
+  },
+  "409": {
+    "temperature": "76.6"
+  },
+  "410": {
+    "temperature": "60.3"
+  },
+  "411": {
+    "temperature": "78.6"
+  },
+  "412": {
+    "temperature": "78.4"
+  },
+  "413": {
+    "temperature": "63.1"
+  },
+  "414": {
+    "temperature": "18.1"
+  },
+  "415": {
+    "temperature": "45.1"
+  },
+  "416": {
+    "temperature": "57.4"
+  },
+  "417": {
+    "temperature": "70.2"
+  },
+  "418": {
+    "temperature": "7.7"
+  },
+  "419": {
+    "temperature": "7.3"
+  },
+  "420": {
+    "temperature": "7.2"
+  },
+  "421": {
+    "temperature": "9.1"
+  },
+  "422": {
+    "temperature": "14.7"
+  },
+  "423": {
+    "temperature": "13.3"
+  },
+  "424": {
+    "temperature": "16.5"
+  },
+  "425": {
+    "temperature": "24.4"
+  },
+  "426": {
+    "temperature": "22.6"
+  },
+  "427": {
+    "temperature": "19.8"
+  },
+  "428": {
+    "temperature": "20.3"
+  },
+  "429": {
+    "temperature": "22.3"
+  },
+  "430": {
+    "temperature": "32.7"
+  },
+  "431": {
+    "temperature": "10.6"
+  },
+  "432": {
+    "temperature": "27.9"
+  },
+  "433": {
+    "temperature": "26.8"
+  },
+  "434": {
+    "temperature": "37.8"
+  },
+  "435": {
+    "temperature": "44.2"
+  },
+  "436": {
+    "temperature": "10.8"
+  },
+  "437": {
+    "temperature": "11.5"
+  },
+  "438": {
+    "temperature": "28.6"
+  },
+  "439": {
+    "temperature": "47.8"
+  },
+  "440": {
+    "temperature": "53.4"
+  },
+  "441": {
+    "temperature": "55.6"
+  },
+  "442": {
+    "temperature": "23.2"
+  },
+  "443": {
+    "temperature": "29.5"
+  },
+  "444": {
+    "temperature": "48.7"
+  },
+  "445": {
+    "temperature": "43.3"
+  },
+  "446": {
+    "temperature": "40.8"
+  },
+  "447": {
+    "temperature": "52.2"
+  },
+  "448": {
+    "temperature": "45.3"
+  },
+  "449": {
+    "temperature": "26.2"
+  },
+  "450": {
+    "temperature": "51.6"
+  },
+  "451": {
+    "temperature": "81.1"
+  },
+  "452": {
+    "temperature": "65.3"
+  },
+  "453": {
+    "temperature": "72.5"
+  },
+  "454": {
+    "temperature": "76.5"
+  },
+  "455": {
+    "temperature": "83.8"
+  },
+  "456": {
+    "temperature": "83.1"
+  },
+  "457": {
+    "temperature": "77.5"
+  },
+  "458": {
+    "temperature": "59.5"
+  },
+  "459": {
+    "temperature": "55.2"
+  },
+  "460": {
+    "temperature": "57.7"
+  },
+  "461": {
+    "temperature": "58.1"
+  },
+  "462": {
+    "temperature": "58.6"
+  },
+  "463": {
+    "temperature": "53.8"
+  },
+  "464": {
+    "temperature": "14.4"
+  },
+  "465": {
+    "temperature": "39.4"
+  },
+  "466": {
+    "temperature": "19.2"
+  },
+  "467": {
+    "temperature": "21.4"
+  },
+  "468": {
+    "temperature": "61.5"
+  },
+  "469": {
+    "temperature": "62.4"
+  },
+  "470": {
+    "temperature": "19.6"
+  },
+  "471": {
+    "temperature": "-12.3"
+  },
+  "472": {
+    "temperature": "56.7"
+  },
+  "473": {
+    "temperature": "59.7"
+  },
+  "474": {
+    "temperature": "65.5"
+  },
+  "475": {
+    "temperature": "50.9"
+  },
+  "476": {
+    "temperature": "48.6"
+  },
+  "477": {
+    "temperature": "67.1"
+  },
+  "478": {
+    "temperature": "59.9"
+  },
+  "479": {
+    "temperature": "61.9"
+  },
+  "480": {
+    "temperature": "50.5"
+  },
+  "481": {
+    "temperature": "36.9"
+  },
+  "482": {
+    "temperature": "75.6"
+  },
+  "483": {
+    "temperature": "77.9"
+  },
+  "484": {
+    "temperature": "31.6"
+  },
+  "485": {
+    "temperature": "56.5"
+  },
+  "486": {
+    "temperature": "41.7"
+  },
+  "487": {
+    "temperature": "54.9"
+  },
+  "488": {
+    "temperature": "61.7"
+  },
+  "489": {
+    "temperature": "37.2"
+  },
+  "490": {
+    "temperature": "30.4"
+  },
+  "491": {
+    "temperature": "64.6"
+  },
+  "492": {
+    "temperature": "65.1"
+  },
+  "493": {
+    "temperature": "79.9"
+  },
+  "494": {
+    "temperature": "63.7"
+  },
+  "495": {
+    "temperature": "63.5"
+  },
+  "496": {
+    "temperature": "68.7"
+  },
+  "497": {
+    "temperature": "59.2"
+  },
+  "498": {
+    "temperature": "54.5"
+  },
+  "499": {
+    "temperature": "73.2"
+  },
+  "500": {
+    "temperature": "69.4"
+  },
+  "501": {
+    "temperature": "61.2"
+  },
+  "502": {
+    "temperature": "57.6"
+  },
+  "503": {
+    "temperature": "61.3"
+  },
+  "504": {
+    "temperature": "54.7"
+  },
+  "505": {
+    "temperature": "77.7"
+  },
+  "506": {
+    "temperature": "68.2"
+  },
+  "507": {
+    "temperature": "67.5"
+  },
+  "508": {
+    "temperature": "75.7"
+  },
+  "509": {
+    "temperature": "31.5"
+  },
+  "510": {
+    "temperature": "66.4"
+  },
+  "511": {
+    "temperature": "80.2"
+  },
+  "512": {
+    "temperature": "70.3"
+  },
+  "513": {
+    "temperature": "67.8"
+  },
+  "514": {
+    "temperature": "63.9"
+  },
+  "515": {
+    "temperature": "58.8"
+  },
+  "516": {
+    "temperature": "87.8"
+  },
+  "517": {
+    "temperature": "52.5"
+  },
+  "518": {
+    "temperature": "51.3"
+  },
+  "519": {
+    "temperature": "62.8"
+  },
+  "520": {
+    "temperature": "45.9"
+  },
+  "521": {
+    "temperature": "75.4"
+  },
+  "522": {
+    "temperature": "79.3"
+  },
+  "523": {
+    "temperature": "64.8"
+  },
+  "524": {
+    "temperature": "59.4"
+  },
+  "525": {
+    "temperature": "71.2"
+  },
+  "526": {
+    "temperature": "76.3"
+  },
+  "527": {
+    "temperature": "49.8"
+  },
+  "528": {
+    "temperature": "72.9"
+  },
+  "529": {
+    "temperature": "73.6"
+  },
+  "530": {
+    "temperature": "39.7"
+  },
+  "531": {
+    "temperature": "60.4"
+  },
+  "532": {
+    "temperature": "38.1"
+  },
+  "533": {
+    "temperature": "50.7"
+  },
+  "534": {
+    "temperature": "33.6"
+  },
+  "535": {
+    "temperature": "38.7"
+  },
+  "536": {
+    "temperature": "71.4"
+  },
+  "537": {
+    "temperature": "70.9"
+  },
+  "538": {
+    "temperature": "56.1"
+  },
+  "539": {
+    "temperature": "53.2"
+  },
+  "540": {
+    "temperature": "74.1"
+  },
+  "541": {
+    "temperature": "71.8"
+  },
+  "542": {
+    "temperature": "65.8"
+  },
+  "543": {
+    "temperature": "74.7"
+  },
+  "544": {
+    "temperature": "69.3"
+  },
+  "545": {
+    "temperature": "70.7"
+  },
+  "546": {
+    "temperature": "78.3"
+  },
+  "547": {
+    "temperature": "25.9"
+  },
+  "548": {
+    "temperature": "69.6"
+  },
+  "549": {
+    "temperature": "73.8"
+  },
+  "550": {
+    "temperature": "66.6"
+  },
+  "551": {
+    "temperature": "72.3"
+  },
+  "552": {
+    "temperature": "63.3"
+  },
+  "553": {
+    "temperature": "87.6"
+  },
+  "554": {
+    "temperature": "64.2"
+  },
+  "555": {
+    "temperature": "50.4"
+  },
+  "556": {
+    "temperature": "72.1"
+  },
+  "557": {
+    "temperature": "17.2"
+  },
+  "558": {
+    "temperature": "43.9"
+  },
+  "559": {
+    "temperature": "45.7"
+  },
+  "560": {
+    "temperature": "34.5"
+  },
+  "561": {
+    "temperature": "81.7"
+  },
+  "562": {
+    "temperature": "76.1"
+  },
+  "563": {
+    "temperature": "74.5"
+  },
+  "564": {
+    "temperature": "67.6"
+  },
+  "565": {
+    "temperature": "68.5"
+  },
+  "566": {
+    "temperature": "74.3"
+  },
+  "567": {
+    "temperature": "68.4"
+  },
+  "568": {
+    "temperature": "84.6"
+  },
+  "569": {
+    "temperature": "83.7"
+  },
+  "570": {
+    "temperature": "81.3"
+  },
+  "571": {
+    "temperature": "22.5"
+  },
+  "572": {
+    "temperature": "-16.6"
+  },
+  "573": {
+    "temperature": "-20.2"
+  },
+  "574": {
+    "temperature": "80.8"
+  },
+  "575": {
+    "temperature": "83.5"
+  },
+  "576": {
+    "temperature": "80.4"
+  },
+  "577": {
+    "temperature": "79.2"
+  },
+  "578": {
+    "temperature": "20.7"
+  },
+  "579": {
+    "temperature": "18.3"
+  },
+  "580": {
+    "temperature": "76.8"
+  },
+  "581": {
+    "temperature": "-1.3"
+  },
+  "582": {
+    "temperature": "9.9"
+  },
+  "583": {
+    "temperature": "16.7"
+  },
+  "584": {
+    "temperature": "-3.1"
+  },
+  "585": {
+    "temperature": "8.8"
+  },
+  "586": {
+    "temperature": "83.3"
+  },
+  "587": {
+    "temperature": "16.9"
+  },
+  "588": {
+    "temperature": "-15.2"
+  },
+  "589": {
+    "temperature": "4.5"
+  },
+  "590": {
+    "temperature": "-4.7"
+  },
+  "591": {
+    "temperature": "-4.4"
+  },
+  "592": {
+    "temperature": "0.5"
+  },
+  "593": {
+    "temperature": "-16.1"
+  },
+  "594": {
+    "temperature": "12.6"
+  },
+  "595": {
+    "temperature": "6.4"
+  },
+  "596": {
+    "temperature": "8.2"
+  },
+  "597": {
+    "temperature": "3.7"
+  },
+  "598": {
+    "temperature": "-5.3"
+  },
+  "599": {
+    "temperature": "-1.8"
+  },
+  "600": {
+    "temperature": "13.8"
+  },
+  "601": {
+    "temperature": "-23.1"
+  },
+  "602": {
+    "temperature": "-27.0"
+  },
+  "603": {
+    "temperature": "-18.9"
+  },
+  "604": {
+    "temperature": "-15.9"
+  },
+  "605": {
+    "temperature": "-32.8"
+  },
+  "606": {
+    "temperature": "-5.6"
+  },
+  "607": {
+    "temperature": "16.3"
+  },
+  "608": {
+    "temperature": "-25.6"
+  },
+  "609": {
+    "temperature": "-18.4"
+  },
+  "610": {
+    "temperature": "-18.2"
+  },
+  "611": {
+    "temperature": "-20.9"
+  },
+  "612": {
+    "temperature": "-23.8"
+  },
+  "613": {
+    "temperature": "-14.8"
+  },
+  "614": {
+    "temperature": "-27.9"
+  },
+  "615": {
+    "temperature": "-25.1"
+  },
+  "616": {
+    "temperature": "-22.4"
+  },
+  "617": {
+    "temperature": "-29.0"
+  },
+  "618": {
+    "temperature": "0.7"
+  },
+  "619": {
+    "temperature": "-1.5"
+  },
+  "620": {
+    "temperature": "12.7"
+  },
+  "621": {
+    "temperature": "4.8"
+  },
+  "622": {
+    "temperature": "3.4"
+  },
+  "623": {
+    "temperature": "7.5"
+  },
+  "624": {
+    "temperature": "0.3"
+  },
+  "625": {
+    "temperature": "10.2"
+  },
+  "626": {
+    "temperature": "5.9"
+  },
+  "627": {
+    "temperature": "-4.9"
+  },
+  "628": {
+    "temperature": "-7.2"
+  },
+  "629": {
+    "temperature": "-12.5"
+  },
+  "630": {
+    "temperature": "-11.6"
+  },
+  "631": {
+    "temperature": "-8.5"
+  },
+  "632": {
+    "temperature": "-8.7"
+  },
+  "633": {
+    "temperature": "-8.9"
+  },
+  "634": {
+    "temperature": "-7.8"
+  },
+  "635": {
+    "temperature": "-6.7"
+  },
+  "636": {
+    "temperature": "-10.1"
+  },
+  "637": {
+    "temperature": "-11.4"
+  },
+  "638": {
+    "temperature": "-10.7"
+  },
+  "639": {
+    "temperature": "-5.4"
+  },
+  "640": {
+    "temperature": "-4.2"
+  },
+  "641": {
+    "temperature": "-2.7"
+  },
+  "642": {
+    "temperature": "5.5"
+  },
+  "643": {
+    "temperature": "-12.8"
+  },
+  "644": {
+    "temperature": "-13.4"
+  },
+  "645": {
+    "temperature": "-11.7"
+  },
+  "646": {
+    "temperature": "1.8"
+  },
+  "647": {
+    "temperature": "86.2"
+  },
+  "648": {
+    "temperature": "81.5"
+  },
+  "649": {
+    "temperature": "2.1"
+  },
+  "650": {
+    "temperature": "82.2"
+  },
+  "651": {
+    "temperature": "-0.6"
+  },
+  "652": {
+    "temperature": "9.7"
+  },
+  "653": {
+    "temperature": "86.9"
+  },
+  "654": {
+    "temperature": "89.6"
+  },
+  "655": {
+    "temperature": "-3.3"
+  },
+  "656": {
+    "temperature": "3.6"
+  },
+  "657": {
+    "temperature": "-6.5"
+  },
+  "658": {
+    "temperature": "79.5"
+  },
+  "659": {
+    "temperature": "2.7"
+  },
+  "660": {
+    "temperature": "5.2"
+  },
+  "661": {
+    "temperature": "-7.4"
+  },
+  "662": {
+    "temperature": "-6.2"
+  },
+  "663": {
+    "temperature": "-12.6"
+  },
+  "664": {
+    "temperature": "-10.8"
+  },
+  "665": {
+    "temperature": "-10.5"
+  },
+  "666": {
+    "temperature": "-6.9"
+  },
+  "667": {
+    "temperature": "-9.6"
+  },
+  "668": {
+    "temperature": "-13.9"
+  },
+  "669": {
+    "temperature": "-19.3"
+  },
+  "670": {
+    "temperature": "-15.3"
+  },
+  "671": {
+    "temperature": "-26.5"
+  },
+  "672": {
+    "temperature": "-21.1"
+  },
+  "673": {
+    "temperature": "-24.9"
+  },
+  "674": {
+    "temperature": "-24.5"
+  },
+  "675": {
+    "temperature": "-23.4"
+  },
+  "676": {
+    "temperature": "-21.3"
+  },
+  "677": {
+    "temperature": "-0.2"
+  },
+  "678": {
+    "temperature": "-27.4"
+  },
+  "679": {
+    "temperature": "-16.8"
+  },
+  "680": {
+    "temperature": "-24.2"
+  },
+  "681": {
+    "temperature": "-21.5"
+  },
+  "682": {
+    "temperature": "-31.0"
+  },
+  "683": {
+    "temperature": "-38.0"
+  },
+  "684": {
+    "temperature": "-28.0"
+  },
+  "685": {
+    "temperature": "140.0"
+  },
+  "686": {
+    "temperature": "162.0"
+  },
+  "687": {
+    "temperature": "172.0"
+  },
+  "688": {
+    "temperature": "-45.0"
+  },
+  "689": {
+    "temperature": "-30.0"
+  },
+  "690": {
+    "temperature": "138.0"
+  },
+  "691": {
+    "temperature": "207.0"
+  },
+  "692": {
+    "temperature": "-32.0"
+  },
+  "693": {
+    "temperature": "-58.0"
+  },
+  "694": {
+    "temperature": "-50.0"
+  },
+  "695": {
+    "temperature": "-1.1"
+  },
+  "696": {
+    "temperature": "118.4"
+  },
+  "697": {
+    "temperature": "170.6"
+  },
+  "698": {
+    "temperature": "81.9"
+  },
+  "699": {
+    "temperature": "-9.8"
+  },
+  "700": {
+    "temperature": "-23.3"
+  },
+  "701": {
+    "temperature": "82.8"
+  },
+  "702": {
+    "temperature": "-3.6"
+  },
+  "703": {
+    "temperature": "-9.2"
+  },
+  "704": {
+    "temperature": "-6.3"
+  },
+  "705": {
+    "temperature": "-13.5"
+  },
+  "706": {
+    "temperature": "-14.4"
+  },
+  "707": {
+    "temperature": "-17.9"
+  }
+}

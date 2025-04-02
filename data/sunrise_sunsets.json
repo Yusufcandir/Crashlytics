@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "sunrise_sunset": "Night"
+  },
+  {
+    "id": 2,
+    "sunrise_sunset": "Day"
+  },
+  {
+    "id": 3,
+    "sunrise_sunset": "Unknown"
+  }
+]

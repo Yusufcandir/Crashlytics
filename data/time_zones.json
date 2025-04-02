@@ -1,0 +1,17 @@
+{
+  "1": {
+    "time_zone": "US/Central"
+  },
+  "2": {
+    "time_zone": "US/Pacific"
+  },
+  "3": {
+    "time_zone": "US/Eastern"
+  },
+  "4": {
+    "time_zone": "US/Mountain"
+  },
+  "5": {
+    "time_zone": "N/A"
+  }
+}
