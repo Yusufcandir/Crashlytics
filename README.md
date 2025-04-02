@@ -49,7 +49,7 @@ Crashlytics is a platform designed to harness the power of machine learning and 
 
 ## Project Structure
 
-- `data`: Directory containing accident data files.
+- `data`: Directory containing accident data files. (Because of the size limit we couldn't not load the main data and some of the jsons)
 - `public/script.js`: Client-side JavaScript for handling UI interactions.
 - `views/index.ejs`: EJS template for the main page.
 - `api.py`: Flask API for handling prediction requests.
